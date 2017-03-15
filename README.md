@@ -27,8 +27,10 @@ the option of vim go
    
 4. make YouCompleteMe
 
+    ```
     cd ~/.vim/bundle/YouCompleteMe
     ./install.py --all
+    ```
 
 5. install vim go deps
     
