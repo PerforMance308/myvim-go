@@ -19,8 +19,8 @@ the option of vim go
     Plugin 'majutsushi/tagbar'
     Plugin 'vim-scripts/Syntastic'
     Plugin 'scrooloose/nerdtree'
-    call vundle#end()            " required
-    filetype plugin indent on    " required
+    call vundle#end()            "
+    filetype plugin indent on    "
     ```
 3. Install Plugins:
 
@@ -30,7 +30,7 @@ the option of vim go
 
     ```
     cd ~/.vim/bundle/YouCompleteMe
-    ./install.py --all
+    ./install.py --gocode-completer
     ```
 
 5. install vim go deps
