@@ -19,8 +19,8 @@ the option of vim go
     Plugin 'majutsushi/tagbar'
     Plugin 'vim-scripts/Syntastic'
     Plugin 'scrooloose/nerdtree'
-    call vundle#end()            "
-    filetype plugin indent on    "
+    call vundle#end()
+    filetype plugin indent on
     ```
 3. Install Plugins:
 
