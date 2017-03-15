@@ -96,6 +96,9 @@ the option of vim go
     endfunction
 
     call s:SetTagbar()
+    
+    syntax on
+    au BufRead,BufNewFile *.go set filetype=go
     ```
 
 
