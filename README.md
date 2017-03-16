@@ -106,4 +106,4 @@ the option of vim go
     mv molokai/colors ./
     ```
     
-    put `colorscheme molokai` to your .vimrc
+    put `colorscheme molokai` to your .vimrc
