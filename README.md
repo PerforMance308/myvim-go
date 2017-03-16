@@ -44,10 +44,7 @@ the option of vim go
     autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
     let g:NERDTreeDirArrowExpandable = '▸'
     let g:NERDTreeDirArrowCollapsible = '▾'
-    ```
-   
-7. Put this at the end of your `.vimrc`
-    ```
+
     if !executable('ctags')
         finish
     elseif globpath(&rtp, 'plugin/tagbar.vim') == ""
@@ -99,7 +96,15 @@ the option of vim go
     
     syntax on
     au BufRead,BufNewFile *.go set filetype=go
-    ```
+    
+    set nu  
+    ```
+7. install molokai color
 
-
-
+    ```
+    cd ~/.vim
+    git clone https://github.com/tomasr/molokai.git
+    mv molokai/colors ./
+    ```
+    
+    put `colorscheme molokai` to your .vimrc
