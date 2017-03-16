@@ -97,8 +97,9 @@ the option of vim go
     syntax on
     au BufRead,BufNewFile *.go set filetype=go
     
-    set nu  
+    set nu
     ```
+ 
 7. install molokai color
 
     ```
